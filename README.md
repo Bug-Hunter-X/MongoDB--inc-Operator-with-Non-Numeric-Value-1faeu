@@ -1,0 +1,2 @@
+# MongoDB $inc Operator with Non-Numeric Value
+This example demonstrates an uncommon error in MongoDB update operations involving the `$inc` operator.  The `$inc` operator is used to increment a numerical value by a specified amount.  However, using it with a non-numeric value results in an error. The `bug.js` file showcases this error. The solution provided in `bugSolution.js` corrects this mistake by using a numeric value for the increment operation.
